@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+<style>
+    
+    #menu li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        width: 50px; 
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="javascript:gotoPage('register','');" >Register</a></li>
+        <li><a href="javascript:gotoPage('logout','Do you really want to Logout');">LogOut</a></li>
+        
+    </ul>
+    <h1> Welcome to Dashboard </h1>
+    <span id="alert" style="display:none;"></span>
+
+    <p id="myinfo">
+
+    </p>
+
+    <a href="javascript:gotoPage('myprofile','');">My Profile</a><br/>
+    <a href="javascript:gotoPage('change-password','');">Change Password</a><br/>
+    <a href="javascript:gotoPage('upload-pic','');">Upload Pic</a><br/>
+
+
+    
+</body>
+    
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/function.js"></script>
+    <script type="text/javascript" src="./js/session.js"></script>
+    <script type="text/javascript" src="./js/state.js"></script>
+    <script type="text/javascript" src="./js/crud.js"></script>
+
+</html>
+
+
+
+

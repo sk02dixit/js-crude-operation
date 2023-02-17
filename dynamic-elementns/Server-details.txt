@@ -1,0 +1,27 @@
+server :-
+http://127.0.0.1:5500/myprofile.html
+protocol : http
+
+direct:-
+file:///C:/Users/awnis/OneDrive/Desktop/folder/dynamic-elements/myprofile.html
+protocol : file
+
+
+There are Two Environment:-
+****************************
+1. live Environment (server) : production : main
+2. stage Environment (server) : test | dev |stage
+
+1. server : http
+2. local : file
+
+
+
+
+
+
+
+
+
+
+
